@@ -1,8 +1,5 @@
 (function () {
 
-<<<<<<< HEAD
-  console.log('It Works!');
-=======
 
 
 	var url = 'http://json-data.herokuapp.com/forms';
@@ -55,6 +52,6 @@
 		});
 
 	};
->>>>>>> 2ed53d93c4a145b17c66964243afc8cd460a510f
+
 
 }());
