@@ -18,6 +18,11 @@
     "normalize.css": "~3.0.2",
     "jquery": "~2.1.4",
     "underscore": "~1.8.3",
+<<<<<<< HEAD
     "moment": "~2.10.6"
+=======
+    "moment": "~2.10.6",
+    "font-awesome": "~4.4.0"
+>>>>>>> 2ed53d93c4a145b17c66964243afc8cd460a510f
   }
 }
