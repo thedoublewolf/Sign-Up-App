@@ -1,0 +1,33 @@
+@mixin borderkit {
+  border: 1px solid #C9CED1;
+  border-radius: 3px;
+}
+
+.container {
+  width: 600px;
+  height: 500px;
+  @include borderkit;
+}
+
+header {
+ background-color: #3E8ACC;
+ color: white;
+ padding: 40px;
+}
+
+footer{
+   background-color: #C8DEF1;
+   padding: 20px;
+}
+
+input {
+  border: none;
+}
+
+.text-input {
+  @include borderkit;
+  display: block;
+  width: 200px;
+  height: 25px;
+}
+

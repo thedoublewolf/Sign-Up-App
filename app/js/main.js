@@ -50,5 +50,4 @@
 			$('form').append(htmlBlock3);
 		});
 	};
-	
 })();
