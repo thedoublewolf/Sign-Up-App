@@ -14,7 +14,7 @@
 
  <form>
   <script type="text/template" id="generic-form">
-	<div class="text-input">
+	<div class= 'text-input <%= obj.id %>' >
 	<i class="fa <%= obj.icon %>"></i>
 	<input type="<%= obj.type %>" placeholder="<%= obj.label %>" id="<%= obj.id %>">
 	</div>
@@ -35,7 +35,7 @@
  </script>
 
  <script type="text/template" id="generic-form2">
-	<div class="text-input">
+	<div class="text-input <%= obj.id %>">
 	<i class="fa <%= obj.icon %>"></i>
 	<input type="<%= obj.type %>" placeholder="<%= obj.label %>" id="<%= obj.id %>">
 	</div>

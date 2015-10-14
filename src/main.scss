@@ -5,14 +5,21 @@
 
 .container {
   width: 600px;
-  height: 500px;
-  @include borderkit;
+  border: 1px solid #C9CED1;
+  border-radius: 10px;
+  box-shadow: 20px 40px 100px black;
+  margin: 50px auto; 
+  overflow: hidden;
 }
 
 header {
  background-color: #3E8ACC;
  color: white;
- padding: 40px;
+ padding: 20px;
+ h2 {
+ font-weight: 300;
+ font-size: 30px;
+ }
 }
 
 footer{
@@ -22,12 +29,62 @@ footer{
 
 input {
   border: none;
+  outline: none;
 }
 
 .text-input {
   @include borderkit;
   display: block;
-  width: 200px;
+  width: 500px;
   height: 25px;
+  margin: 20px;
+  padding: 5px;
+  &:active{
+    outline: none;
+  }
+}
+
+
+.user-first-name {
+  width: 220px;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.user-last-name {
+  width: 220px;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.user-mobile {
+  width: 220px;
+  display: inline-block;
+  margin-top: 0;
+}
+
+.user-phone {
+  width: 220px;
+  display: inline-block;
+  margin-top: 0;
+}
+
+select {
+  @include borderkit;
+  height: 35px;
+  width: 510px;
+  margin: 10px 20px;
+  background-color: white;
+  color: #A9A9A9;
+}
+
+button {
+  border: 1px solid #2B7FC7;
+  border-radius: 3px;
+  background-color: #3E8ACC;
+  color: white;
+  padding: 10px;
+
+
 }
 
