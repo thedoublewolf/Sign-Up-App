@@ -1,0 +1,6 @@
+{
+  "name": "thedoublewolf-sign-up-app",
+  "root": "app",
+  "clean_urls": true,
+  "error_page": "error.html"
+}
