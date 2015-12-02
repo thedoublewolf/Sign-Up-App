@@ -1,3 +1,3 @@
 ## This is a Readme
 
-> You should probably update me.
+> A basic JavaScript form built through pair programming.
