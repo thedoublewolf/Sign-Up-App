@@ -1,3 +1,3 @@
-## This is a Readme
+## Sign-Up App
 
 > A basic JavaScript form built through pair programming.
